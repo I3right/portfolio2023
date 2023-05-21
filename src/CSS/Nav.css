@@ -1,0 +1,17 @@
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  max-width: 1320px;
+  background-color: var(--background);
+  height: 50px;
+}
+
+ul.nav a {
+  color: var(--text100);
+}
+
+ul.nav a:hover {
+  color: var(--blue);
+}

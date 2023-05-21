@@ -1,0 +1,28 @@
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+:root {
+  --background: #ededed;
+  --text100: #111414;
+  --text70: #11141470;
+  --text30: #11141430;
+  --blue: #00008B;
+  --lightblue: #1434A4;
+  --mint: #55FFDD;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root{
+  background-color: var(--background);
+  min-height: 100vh;
+}

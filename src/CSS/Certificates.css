@@ -1,0 +1,15 @@
+section.certificates-container {
+  margin-top: 150px;
+}
+
+div.swiper img{
+  margin: 15px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+  width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  section.certificates-container {
+    margin-top: 100px;
+  }
+}

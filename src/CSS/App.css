@@ -1,0 +1,26 @@
+section.banner-container,
+section.quote-container,
+section.skills-container,
+section.projects-container,
+section.certificates-container,
+section.aboutme-container
+ {
+  /* margin-left: 100px; */
+}
+
+
+h2.section-name{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.h2-margin{
+  margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .h2-margin{
+    margin-bottom: 1rem;
+  }
+}

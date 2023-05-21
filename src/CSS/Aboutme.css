@@ -1,0 +1,73 @@
+section.aboutme-container {
+  margin-top: 150px;
+}
+
+div.aboutme {
+  padding-bottom: 50px;
+}
+
+div.aboutme a {
+  border: 2px solid var(--text30);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 130px;
+}
+/* 
+div.aboutme a i {
+  margin-bottom: 0px;
+} */
+
+div.aboutme a:hover {
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  background-color: #efefef;
+  color: var(--lightblue);
+  border: 2px solid var(--lightblue);
+}
+
+@media only screen and (max-width: 1100px) {
+}
+
+@media only screen and (max-width: 850px) {
+  div.aboutme a {
+    gap: 10px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  section.aboutme-container {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  div.aboutme a {
+    font-size: 12px;
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.aboutme a {
+    font-size: 11px;
+    gap: 5px;
+    width: 75px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+   div.aboutme a {
+    font-size: 10px;
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+     div.aboutme a {
+    font-size: 9px;
+    width: 60px;
+  }
+}

@@ -1,0 +1,25 @@
+section.skills-container {
+  margin-top: 120px;
+}
+
+div.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+h2#skills {
+  font-weight: 700;
+  color: var(--text100);
+}
+
+img.skillsPicture {
+  width: 30%;
+  filter: grayscale(20%);
+}
+
+/* img.skillsPicture:hover {
+  transition: 1s;
+  filter: grayscale(0%);
+} */
