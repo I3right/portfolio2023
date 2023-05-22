@@ -1,5 +1,5 @@
 import React from "react";
-import cover from "../../assets/picture/yunwhang-cover.jpg";
+import cover from "../../assets/picture/Yunwhang-cover.jpg";
 
 const Yunwhang = () => {
   return (
