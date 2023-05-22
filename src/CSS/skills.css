@@ -16,10 +16,10 @@ h2#skills {
 
 img.skillsPicture {
   width: 30%;
-  filter: grayscale(20%);
+  filter: grayscale(70%);
 }
 
-/* img.skillsPicture:hover {
+img.skillsPicture:hover {
   transition: 1s;
   filter: grayscale(0%);
-} */
+}
