@@ -134,28 +134,30 @@ figure.profile-picture {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
   div.banner{
     padding: 0 1.8rem;
+    flex-direction: column-reverse;
   }
 
   div.banner-text h1 {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 100px;
+    line-height: 100px;
   }
 
   div.banner-text {
-    margin: 160px 0;
+    margin: 60px 0 40px 0;
   }
 
   div.banner-text h3 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     margin-left: 5px;
   }
 
   div.banner figure {
-    width: 90px;
-    margin-top: 180px;
+    
+    width: 250px;
+    margin: 30px auto 0 auto;
   }
 }
 
@@ -165,26 +167,26 @@ figure.profile-picture {
   }
 
   div.banner-text h1 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 70px;
+    line-height: 70px;
   }
 
   div.banner-text {
-    margin: 160px 0;
+    margin: 40px 0;
   }
 
   div.banner-text h3 {
-    font-size: 0.6rem;
-    margin-left: 3px;
+    font-size: 1rem;
+    margin: 10px 0 10px 2px;
   }
 
   div.banner figure {
-    width: 80px;
-    margin-top: 170px;
+    width: 200px;
+    margin-top: 40px;
   }
 }
 
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
   div.banner{
     padding: 0 1rem;
   }
@@ -207,4 +209,4 @@ figure.profile-picture {
     width: 70px;
     margin-top: 170px;
   }
-}
+} */

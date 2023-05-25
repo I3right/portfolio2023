@@ -14,7 +14,7 @@ function App() {
     <div className='container-xxl'>
       <Navbar/>
       <Banner/>
-      <MyQuote/>
+      {/* <MyQuote/> */}
       <Skills/>
       <Projects/>
       <Certificates/>
