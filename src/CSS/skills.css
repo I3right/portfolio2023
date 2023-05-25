@@ -6,7 +6,6 @@ div.skills {
   display: flex;
   flex-direction: column;
   gap: 50px;
-
 }
 
 h2#skills {
@@ -16,10 +15,102 @@ h2#skills {
 
 img.skillsPicture {
   width: 30%;
-  filter: grayscale(70%);
 }
 
-img.skillsPicture:hover {
-  transition: 1s;
-  filter: grayscale(0%);
+.skill1 {
+  animation: blink1 4s linear infinite;
+  -webkit-animation: blink1 4s linear infinite;
+  -moz-animation: blink1 4s linear infinite;
+}
+
+.skill2 {
+  animation: blink2 4s linear infinite;
+  -webkit-animation: blink2 4s linear infinite;
+  -moz-animation: blink2 4s linear infinite;
+}
+
+@-moz-keyframes blink1 {
+  0% {
+    filter: grayscale(70%);
+  }
+  30% {
+    filter: grayscale(0%);
+  }
+  70% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(70%);
+  }
+}
+@-webkit-keyframes blink1 {
+  0% {
+    filter: grayscale(70%);
+  }
+  30% {
+    filter: grayscale(0%);
+  }
+  70% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(70%);
+  }
+}
+@keyframes blink1 {
+  0% {
+    filter: grayscale(70%);
+  }
+  30% {
+    filter: grayscale(0%);
+  }
+  70% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(70%);
+  }
+}
+
+@-moz-keyframes blink2 {
+  0% {
+    filter: grayscale(0%);
+  }
+  30% {
+    filter: grayscale(70%);
+  }
+  70% {
+    filter: grayscale(70%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+@-webkit-keyframes blink2 {
+  0% {
+    filter: grayscale(0%);
+  }
+  30% {
+    filter: grayscale(70%);
+  }
+  70% {
+    filter: grayscale(70%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+@keyframes blink2 {
+  0% {
+    filter: grayscale(0%);
+  }
+  30% {
+    filter: grayscale(70%);
+  }
+  70% {
+    filter: grayscale(70%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
 }

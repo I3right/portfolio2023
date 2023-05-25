@@ -6,6 +6,7 @@ header {
   max-width: 1320px;
   background-color: var(--background);
   height: 50px;
+  font-weight: bold;
 }
 
 ul.nav a {
