@@ -24,9 +24,9 @@ img.skillsPicture {
 }
 
 .skill2 {
-  animation: blink2 4s linear infinite;
-  -webkit-animation: blink2 4s linear infinite;
-  -moz-animation: blink2 4s linear infinite;
+  animation: blink1 4s linear infinite;
+  -webkit-animation: blink1 4s linear infinite;
+  -moz-animation: blink1 4s linear infinite;
 }
 
 @-moz-keyframes blink1 {
