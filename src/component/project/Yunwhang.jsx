@@ -21,7 +21,7 @@ const Yunwhang = () => {
         <div className="card-footer d-flex justify-content-between align-items-center">
           <h4>MERN | Bootstrap </h4>
           <div className="card-btn">
-            <a href="https://fuiyohtest1.vercel.app/" target="blank"><i className="fa-regular fa-circle-play"></i></a>
+            <a href="https://fuiyoh.vercel.app/" target="blank"><i className="fa-regular fa-circle-play"></i></a>
             <a href="https://github.com/I3right/Project_F_1" target="blank"><i className="fa-brands fa-github"></i></a>
           </div>
         </div>
