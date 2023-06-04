@@ -22,7 +22,8 @@ const Yunwhang = () => {
           <h4>MERN | Bootstrap </h4>
           <div className="card-btn">
             <a href="https://fuiyoh.vercel.app/" target="blank"><i className="fa-regular fa-circle-play"></i></a>
-            <a href="https://github.com/I3right/Project_F_1" target="blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/I3right/JSD4_GroupF_FrontEnd" target="blank"><i className="fa-brands fa-github"></i><span>Frontend</span></a>
+            <a href="https://github.com/I3right/JSD4_GroupF_BackEnd" target="blank"><i className="fa-brands fa-github"></i><span>Backend</span></a>
           </div>
         </div>
 

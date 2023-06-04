@@ -58,6 +58,7 @@ div.card-sub-head {
 
 div.card-footer, div.card-btn a {
   color: var(--blue);
+  position: relative;
 }
 
 div.card-btn a:hover {
@@ -67,12 +68,21 @@ div.card-btn a:hover {
 
 div.card-btn {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 div.card-btn a i {
   font-size: 30px;
 }
+
+div.card-btn span {
+  /* display: none; */
+  position: absolute;
+  font-size: 10px;
+  bottom: -10px;
+  left: -4px;
+}
+
 
 @media only screen and (max-width: 1200px) {
   div.miniproject figure {
