@@ -33,7 +33,7 @@ figure.profile-picture {
   border-radius: 4px;
   overflow: hidden;
   width: 280px;
-  margin-top: 200px;
+  margin-top: 250px;
   animation: fadeInAnimation 2.5s;
   animation-iteration-count: 1;
 }
