@@ -17,7 +17,7 @@ const Projects = () => {
           <Colmar/>
           <FindYourHat/>
           <Airbnb/>
-          <Twitter/>
+          {/* <Twitter/> */}
         </div>
       </div>
     </section>
