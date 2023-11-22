@@ -9,7 +9,7 @@ const Aboutme = () => {
       </h2>
       <div className="aboutme col-sm-12 col-lg-12 d-flex justify-content-around">
         <a
-          href="https://drive.google.com/file/d/1lzStDXWO1NdSCXg14XWUFD-E7EG6mUkN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1osCe5pbgSsRdH08LAfIxbdzIW9wt6rYp/view?usp=drive_link"
           className="btn btn-dark"
           target="blank"
         >

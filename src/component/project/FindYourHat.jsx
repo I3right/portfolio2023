@@ -21,10 +21,9 @@ const FindYourHat = () => {
           <p>Pure javaScript maze game.That have two services. First is generate map by let user to choose mapsize, difficult level. Second is Movement by get user in put to controll character to end point.</p>
         </div>
         <div className="card-footer d-flex justify-content-between align-items-center">
-          <h4>HTML | CSS</h4>
+          <h4>Javascript</h4>
           <div className="card-btn">
-            <a href="https://landingpage-airbnb-jirayu.vercel.app/" target="blank"><i className="fa-regular fa-circle-play"></i></a>
-            <a href="https://github.com/I3right/landingpage-airbnb" target="blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://replit.com/@ChirayuKuna/jsd04JSAssesment#index.js" target="blank"><i className="fa-regular fa-circle-play"></i></a>
           </div>
         </div>
 
